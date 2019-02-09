@@ -1,15 +1,14 @@
-h3 {
-  margin: 40px 0 0;
+form {
+width: 100%
 }
-ul {
-  list-style-type: none;
-  padding: 0;
+/* float check feild left */
+label.el-checkbox{
+    float: left;
 }
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
-
+/*for Descktop change width to 50% of screen and center align the form */
+@media (min-width: 1000px) {
+    form  {
+        width: 50%;
+        margin: 0 auto;
+    }
+  }

@@ -1,7 +1,8 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <requestForm msg="Welcome to Your Vue.js App"/>
+    <h1>Claim Request Form</h1>
+    <!-- get form -->
+    <requestForm/>
   </div>
 </template>
 
